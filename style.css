@@ -4,7 +4,8 @@
     --branco: white;
     --cor-de-fundo: #002E15;
     --fundo-senha: #037A46;
-    --fundo-texto: #037A46;
+    --fundo-texto: #04492cb0;
+    --fundo-barra:#04492cb0;
     --borda: #D4FF00;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -36,7 +37,7 @@ body{
 
 .conteudo-senha{
     margin-top: 80px; 
-    background: var(--fundo-senha);
+    background: var(--fundo-texto);
     padding: 24px;
     border-bottom: 6px solid var(--borda);
 }
@@ -114,7 +115,7 @@ body{
 }
 
 .barra{
-    background-color: var(--fundo-senha);
+    background-color: #037a4695;
     height: 30px;
     width: 100%;
 }
@@ -130,11 +131,6 @@ body{
     background-color: #E71B32; 
 }
 
-.parametro-senha-textos{
-    display: flex;
-    justify-content: space-between;
-}
-
 .media{
     background-color: #FAF408;
     width: 50%;
@@ -143,6 +139,10 @@ body{
 .forte{
     background-color: #00FF85;
     width: 100%;
+}
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
